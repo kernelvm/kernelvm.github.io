@@ -1,0 +1,16 @@
+body {
+    color: white;
+    background: #000000;
+    font-family: system-ui, sans-serif;
+    user-select: none;
+    cursor: url('../popcat-closed.html'), auto; /* Standardcursor für den gesamten Body */
+}
+
+.custom-cursor {
+    cursor: url('../popcat-open.html'), auto !important; /* Cursor für spezifische Elemente */
+}
+
+/* Sicherstellen, dass der Cursor für Buttons korrekt angewendet wird */
+.wrap .button {
+    cursor: url('../popcat-open.html'), auto !important;
+}
